@@ -2,7 +2,7 @@
 
 Adds common player/pawn classes with proper initialization routes which confirms character is entirely initialized
 
-Until Character is fully initialized, collision & movement & visibility is all disabled. These are enabled once fully initialized. This prevents replication race conditions as well as things such as Voxel Pro voxel world initialization occuring an arbitrary time after character initialization leaving it to fall through the world otherwise.
+Until Character is fully initialized, collision & movement & visibility is all disabled. These are enabled once fully initialized. This prevents replication race conditions (eg. Character's PlayerState) as well as things such as Voxel Pro voxel world initialization occuring an arbitrary time after character initialization leaving it to fall through the world otherwise.
 
 ## Usage: 
 1. Clone this to your Project\Plugins folder (do not use engine folder)
