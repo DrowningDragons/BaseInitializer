@@ -20,7 +20,7 @@ private:
 	bool bInitCalled;
 
 public:
-	ABICharacter();
+	ABICharacter(const FObjectInitializer& OI);
 
 	UFUNCTION(BlueprintPure, Category = Character)
 	FORCEINLINE bool IsInitialized() const { return Initializer.IsInitialized(); }

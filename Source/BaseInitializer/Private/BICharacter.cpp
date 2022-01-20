@@ -13,7 +13,7 @@
 #include "BIPlayerState.h"
 
 
-ABICharacter::ABICharacter()
+ABICharacter::ABICharacter(const FObjectInitializer& OI)
 {
 	bInitCalled = false;
 
