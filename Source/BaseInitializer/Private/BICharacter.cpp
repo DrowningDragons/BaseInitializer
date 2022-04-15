@@ -1,6 +1,5 @@
 // Copyright (c) 2019-2021 Drowning Dragons Limited. All Rights Reserved.
 
-
 #include "BICharacter.h"
 #include "AIController.h"
 #include "GameFramework/CharacterMovementComponent.h"
@@ -11,7 +10,6 @@
 #include "BIPlayerCameraManager.h"
 #include "BIHUD.h"
 #include "BIPlayerState.h"
-
 
 ABICharacter::ABICharacter(const FObjectInitializer& OI)
 {

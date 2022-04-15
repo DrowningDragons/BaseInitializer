@@ -1,11 +1,10 @@
 // Copyright (c) 2019-2021 Drowning Dragons Limited. All Rights Reserved.
 
-
 #include "BIPlayerController.h"
 
 ABIPlayerController::ABIPlayerController()
 {
-	DisableInput(this);
+	APlayerController::DisableInput(this);
 }
 
 void ABIPlayerController::Init()
